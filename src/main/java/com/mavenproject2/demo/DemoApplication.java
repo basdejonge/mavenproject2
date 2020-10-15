@@ -1,5 +1,4 @@
 package com.mavenproject2.demo;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Service;
@@ -13,7 +12,7 @@ public class DemoApplication {
 
 }
 @Service
-public class DemoApplication {
+public class DemoApplication2 {
 	int sum(int a, int b) {
 		return a + b;
 	}
