@@ -12,7 +12,6 @@ public class DemoApplication {
 
 }
 @Service
-public class DemoApplication2 {
 	int sum(int a, int b) {
 		return a + b;
 	}
