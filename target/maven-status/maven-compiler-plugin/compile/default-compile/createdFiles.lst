@@ -1,3 +1,3 @@
 com/mavenproject2/demo/DemoApplication.class
-com/leszko/calculator/Calculator.class
-com/leszko/calculator/CalculatorController.class
+com/mavenproject2/demo/Calculator.class
+com/mavenproject2/demo/CalculatorController.class
