@@ -11,5 +11,15 @@ pipeline {
                 sh "./mvnw test"
             }
         }
+        stage ("Package") {
+                    steps {
+                        sh "./mvnw package"
+                    }
+                }
+        stage ("Docker build") {
+                    steps {
+                         sh "docker build -t bas123test/calculator ."
+                    }
+                }
     }
 }
