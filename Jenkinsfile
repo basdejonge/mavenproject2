@@ -18,7 +18,7 @@ pipeline {
                 }
         stage ("Docker build") {
                     steps {
-                         sh "docker build -t bas123test/calculator ."
+                         sh "docker build -t calculator ."
                     }
                 }
     }
