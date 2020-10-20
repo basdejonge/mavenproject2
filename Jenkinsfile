@@ -23,7 +23,7 @@ pipeline {
                 }
          stage ("Docker push") {
                     steps {
-                         sh "docker tag calculator localhost:5000/calculator2"
+                         sh "docker tag calculator2 localhost:5000/calculator2"
                          sh "docker push localhost:5000/calculator2"
                     }
                 }
