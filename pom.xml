@@ -64,7 +64,7 @@
 			<configuration>
 				<archive>
 					<manifest>
-						<mainClass>com.roufid.tutorials.AppTest</mainClass>
+						<mainClass>/Users/sebastiaandejonge/jenkins_home/plugins/pipeline-input-step/META-INF</mainClass>
 					</manifest>
 				</archive>
 			</configuration>
