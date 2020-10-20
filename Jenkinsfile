@@ -18,13 +18,13 @@ pipeline {
                 }
         stage ("Docker build") {
                     steps {
-                         sh "docker build -t calculator ."
+                         sh "docker build -t calculator2 ."
                     }
                 }
          stage ("Docker push") {
                     steps {
-                         sh "docker tag calculator localhost:5000/calculator"
-                         sh "docker push localhost:5000/calculator"
+                         sh "docker tag calculator localhost:5000/calculator2"
+                         sh "docker push localhost:5000/calculator2"
                     }
                 }
     }
