@@ -18,7 +18,7 @@ pipeline {
                 }
         stage ("Docker build") {
                     steps {
-                         sh "docker build -t calculator ."
+                         sh "docker build --network=host -t calculator ."
                     }
                 }
          stage ("Docker push") {
