@@ -29,7 +29,7 @@ pipeline {
                 }
         stage ("Deploy to staging") {
                     steps {
-                         sh "docker run -d -p 8765:8080 --name calculator calculator:latest"
+                         sh "docker run -d -p 8765:8765 --name calculator calculator:latest"
                     }
                 }
         stage ("Acceptance test") {
